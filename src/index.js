@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 
+// const el = React.createElement(
+//   'h1',
+//   null,
+//   'Hi Mik!'
+// );
+const el = <h1>Hi Mik!</h1>
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(el, document.getElementById('root'));
